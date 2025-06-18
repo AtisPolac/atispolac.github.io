@@ -48,7 +48,7 @@ window.addEventListener('scroll', function() {
     const scrolled = window.pageYOffset;
     const heroImage = document.querySelector('.hero-image img');
     if (heroImage) {
-        heroImage.style.transform = `translateY(${scrolled * 0.3}px)`;
+        heroImage.style.transform = `translateY(${scrolled * 0.1}px)`;
     }
 });
 
